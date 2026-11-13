@@ -12,12 +12,11 @@ more times.
 
 In the sidebar, under the context figure OpenCode already shows:
 
-```
-▲ 174k context · ~$0.26/turn
-/compact, or new session soon
-```
+<img src="docs/sidebar.gif" alt="A pulsing red warning in the OpenCode sidebar, reading 165k context, /compact or new session soon" width="420">
 
-Red and pulsing, and it stays until the context is cleared. There is a toast at
+Red and pulsing, and it stays until the context is cleared. On a model that
+publishes prices the first line also carries what a turn now costs, as
+`▲ 174k context · ~$0.26/turn`. There is a toast at
 the moment each threshold is crossed, a line in the transcript, and a desktop
 notification — all of them optional.
 
@@ -26,7 +25,7 @@ notification — all of them optional.
 Clone it into the `plugins` directory beside your `opencode.json`:
 
 ```sh
-git clone https://github.com/USER/opencode-context-guard \
+git clone https://github.com/pierangeloc/opencode-context-guard \
   ~/.config/opencode/plugins/context-guard
 ```
 

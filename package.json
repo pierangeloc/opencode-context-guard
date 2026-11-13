@@ -11,6 +11,8 @@
   },
   "files": [
     "src",
+    "index.ts",
+    "tui.tsx",
     "README.md",
     "LICENSE"
   ],
@@ -31,5 +33,13 @@
     "@opentui/core": ">=0.6.6",
     "@opentui/solid": ">=0.6.6",
     "solid-js": ">=1.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pierangeloc/opencode-context-guard.git"
+  },
+  "homepage": "https://github.com/pierangeloc/opencode-context-guard#readme",
+  "bugs": {
+    "url": "https://github.com/pierangeloc/opencode-context-guard/issues"
   }
 }
